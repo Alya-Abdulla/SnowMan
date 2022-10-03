@@ -14,13 +14,15 @@
 
 <p id="ratefeld"></p>
 <form class="wordForm">
-    <input name="inputFeild" type="text" size="5" maxlength="1">
-    <input name="gusses" type="button" value="Guess" onClick="testMatch()">
+    <input name="inputField" type="text" size="5" maxlength="1">
+    <input name="guess" type="button" value="Guess" onClick="testMatch()">
+</form>
 
-    <p id="wrongLatter">Wrong Letters:</p>
-    <!-- <img src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman"><br /> -->
-    <input name="refresh" type="button" value="New Game" onClick="location.reload()">
-    </form>
+    <p id="wrongLatter">
+        Wrong Letters:<span id="span" style="color:blue;"></span>
+    </p>
+    <!-- reloads the current document. -->
+    <!-- <input name="refresh" type="button" value="New Game" onClick="location.reload()"> -->
     
 </body>
 </html>
