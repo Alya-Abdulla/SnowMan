@@ -9,20 +9,23 @@
     <title>Document</title>
 </head>
 <body>
-
-<h1>SnowMan Game</h1>
+ <div class="title"><h1 >SnowMan Game</h1></div>   
+<div class="container">
+    
 
 <p id="ratefeld"></p>
 <form class="wordForm">
-    <input name="inputField" type="text" size="5" maxlength="1">
+    <input name="inputField" type="text" size="5" maxlength="1"></form>
     <input name="guess" type="button" value="Guess" onClick="testMatch()">
 </form>
 
-    <p id="wrongLatter">
+</br> <p id="wrongLatter">
         Wrong Letters:<span id="span" style="color:blue;"></span>
     </p>
     <!-- reloads the current document. -->
     <!-- <input name="refresh" type="button" value="New Game" onClick="location.reload()"> -->
+</div>
+
     
 </body>
 </html>
