@@ -13,8 +13,8 @@ body {
 }
 input {
     
-	border: 2px solid #999;
-	color: #999;
+	border: 2px solid rgb(82, 82, 125);
+	color:rgb(82, 82, 125);
 }
 
 
@@ -22,19 +22,24 @@ input {
 	font-family: 'Permanent Marker', 'cursive';
 	font-size: 2.0em;
 }
-.container{
+.wordsDiv{
+	display: inline-block;
+	color: rgb(82, 82, 125);
 	position: relative;
 	Right: -300px;
 	font-size: 30px;
 	outline: 2px solid white;
 	width:30vw;
 	height:60vh;
-	margin: 25px;
+	margin-right: auto;
+	background-color:rgba(0, 0, 0, 0.048);
 
 }
-.container{
+.wordsDiv{
 text-align: center;
+
 }
+
 .title{
 	font-family: arial;
 	font-size: 24px;
@@ -46,4 +51,36 @@ text-align: center;
 	display:flex;
 	justify-content: center;
 	
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	/* margin-left: auto;
+	left: -100;; */
+}
+
+.image{
+	 margin-right: auto;
+	 display: flex;
+	flex-direction: column;
+}
+
+
+#head{
+	margin: 20px 40px 0px;
+}
+
+#eyes-left{
+	
+    bottom: 80%;
+    left: 90px;
+    position: relative;
+}
+
+#eyes-right{
+    bottom: 85%;
+   
+    left: 150px;
+    position: relative;
 }

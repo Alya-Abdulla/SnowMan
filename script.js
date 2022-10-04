@@ -61,7 +61,7 @@ const words = [
        // selecting the span that will hold the wrong letters
         let wrongLetter=document.getElementById("span")
         // change the innerText of wrongLetter
-        wrongLetter.innerText = wrongLetter.innerText + " " + userGuess
+        wrongLetter.innerText = wrongLetter.innerText + " \n  " +userGuess + "\n"
         wrong++;
        }
 //checks if all letters have been found
