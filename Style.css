@@ -56,12 +56,13 @@ text-align: center;
 .container{
 	display: flex;
 	flex-direction: row;
+	margin:30px;
 	/* margin-left: auto;
 	left: -100;; */
 }
 
 .image{
-	 margin-right: auto;
+	 margin-right: 300px;
 	 display: flex;
 	flex-direction: column;
 }
@@ -69,18 +70,54 @@ text-align: center;
 
 #head{
 	margin: 20px 40px 0px;
+	
+
 }
 
 #eyes-left{
 	
-    bottom: 80%;
+    bottom: 75%;
     left: 90px;
     position: relative;
 }
 
 #eyes-right{
-    bottom: 85%;
+    bottom: 80%;
    
     left: 150px;
     position: relative;
+}
+#nose{
+	bottom: 76%;
+    left: 130px;
+    position: relative;
+
+}
+
+#mouth{
+	bottom: 75%;
+    left: 130px;
+    position: relative;
+
+}
+
+#hat{
+	bottom: 61%;
+    left: 100px;
+    position: relative;
+}
+#scarf{
+	bottom: 52%;
+    left: -30%;
+    position: relative;
+}
+
+.melt{
+	background-image: url('./pic/meltSnowMan.png');
+    border: 2px solid red;
+    
+    width: 30vw;
+    height: 50vh;
+    margin-top: -500px;
+    margin-left: 500px;
 }
