@@ -87,7 +87,8 @@ const words = [
                     break;
                 case 4:
                     body.style.visibility="hidden"
-                 
+                    
+                    demo.style.visibility="visible"  
                 break;
     
             }
@@ -104,13 +105,19 @@ const words = [
             }
             if(isDone)
             {
-                console.log("You Win")
+                
+                console.log("win")
+                demo.style.visibility="visible"
+                document.getElementById("win").innerHTML= "You Win"  
             }
     
             //once you got six wrong letters, you lose
             if(!isDone)
             {
-                console.log("X")
+               
+              
+              document.getElementById("demo").innerHTML = "Uh..I guess you're"+ "\n" +"ded now!! "; 
+  
             }
 
         }    
