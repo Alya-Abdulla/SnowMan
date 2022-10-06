@@ -34,6 +34,7 @@ technologies used:  HTML, CSS< javaScript>
 
 <img src="/img/.jpg" alt="Alt text" title="Optional title">
 
+
  unsolved problems:
  ican press enter button reither than click
  but hints for the gussing words 

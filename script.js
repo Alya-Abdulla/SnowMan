@@ -65,14 +65,14 @@ const words = [
             ratefeld.innerHTML = "";
             printGuessesWord();
     
-            // if a guessed letter is not in the word, the letter will be put on the "wrong letters"-list and hangman grows
+            // if a guessed letter is not in the word, the letter will be put on the "wrong letters"-list and snowman grows
            if(!goal&& wrong<4)
            {
             // console.log('not goal')
            // selecting the span that will hold the wrong letters
             let wrongLetter=document.getElementById("span")
             // change the innerText of wrongLetter
-            wrongLetter.innerText = wrongLetter.innerText + " \n  " +userGuess + "\n"
+            wrongLetter.innerText = wrongLetter.innerText + " \n " +userGuess 
             wrong++;
             switch(wrong)
             {
@@ -95,7 +95,7 @@ const words = [
     
            }
     //checks if all letters have been found
-            let isDone=false;
+            let isDone=True;
             for (let i = 0; i < isWord.length; i++)
             {
                 if (GWord[i]==="_")
@@ -111,7 +111,7 @@ const words = [
                 document.getElementById("win").innerHTML= "You Win"  
             }
     
-            //once you got six wrong letters, you lose
+            //once you got 4 wrong letters, you lose
             if(!isDone)
             {
                
